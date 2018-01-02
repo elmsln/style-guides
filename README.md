@@ -30,3 +30,4 @@ street: {
 - We currently ride on Polymer 1.x.x, all polymer based elements should be compatible with it.
 - Whenever possible, develop hybrid elements that work across Polymer versions.
 - Always use `this.addEventListener` instead of a `listeners: {}` object in Polymer elements produced
+- only use `notify: true` when intending for an event to bubble up
